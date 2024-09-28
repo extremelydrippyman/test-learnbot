@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Form</title>
+    <style>
+      #mylink {
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body align="center">
+    <header>
+      <h1>Assignment submission</h1>
+    </header>
+
+    <form action="/get-chatgpt-response" method="POST">
+      <fieldset>
+        <label>Grade</label>
+        <input
+          type="text"
+          id="grade"
+          name="grade"
+          placeholder="Grade"
+          required
+        />
+        <br /><br />
+
+        <label>Assignment Question</label>
+        <textarea type="text" id="question" name="question" required></textarea>>
+        <br /><br />
+
+        <label>Assignment Answer</label>
+        <textarea type="text" id="answer" name="answer" required ></textarea>>
+        <br /><br />
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <br /><br />
+    <a id="mylink" href="./registration.html">register</a>
+  </body>
+</h
+tml>
